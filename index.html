@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- icons -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div id="container" class="music-pause">
+      <div id="container-fluid">
+        <div id="music-sidebar">
+          <div class="sidebar-menu">
+            <ul>
+              <li class="menu-item">
+                <a href="#" class="active-menu">
+                  <ion-icon name="home-outline"></ion-icon>Home</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"><ion-icon name="albums-outline"></ion-icon>Album</a>
+              </li>
+              <li class="menu-item">
+                <a href="#"
+                  ><ion-icon name="heart-outline"></ion-icon>Favorite</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <ion-icon name="person-outline"></ion-icon>Artists</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#"
+                  ><ion-icon name="videocam-outline"></ion-icon>Videos</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-personal">
+            <h4 class="personal-title">My music</h4>
+            <ul>
+              <li class="personal-item">
+                <a href="#"
+                  ><ion-icon name="alarm-outline"></ion-icon>Recently played</a
+                >
+              </li>
+              <li class="personal-item">
+                <a href="#"
+                  ><ion-icon name="document-text-outline"></ion-icon>Local
+                  files</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-promotion">
+            <h4 class="promotion-title">Promotion</h4>
+            <ul>
+              <li class="promotion-item">
+                <a href="#"
+                  ><ion-icon name="happy-outline"></ion-icon>Register VIP</a
+                >
+              </li>
+              <li class="promotion-item">
+                <a href="#"
+                  ><ion-icon name="musical-notes-outline"></ion-icon>Mood
+                  Swings</a
+                >
+              </li>
+              <li class="promotion-item">
+                <a href="#">
+                  <ion-icon name="earth-outline"></ion-icon>Easy up beast</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-banner">
+            <img
+              src="https://st3.depositphotos.com/5891300/19216/v/950/depositphotos_192165554-stock-illustration-girl-listen-music-and-dancing.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div id="music-main">
+          <div class="main-header">
+            <div class="header-search">
+              <div class="search-item">
+                <ion-icon class="apps-icon" name="mic-outline"></ion-icon>
+                <ion-icon
+                  class="search-icon"
+                  name="search-circle-outline"
+                ></ion-icon>
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="Search..."
+                />
+              </div>
+            </div>
+            <div class="header-notify">
+              <div class="header-notify-item">
+                <ion-icon name="mail-unread-outline"></ion-icon>
+                <ion-icon
+                  class="change-bg"
+                  name="color-palette-outline"
+                ></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="main-playing">
+            <div class="playing-header">
+              <div class="playing-header-title">
+                Top Artists <span>- Top 50</span>
+              </div>
+              <div class="playing-header-control">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </div>
+            </div>
+
+            <div class="playing-carousel">
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://i.ytimg.com/an/nfs8NYg7yQM/158b5e5a-0dea-4c83-8055-6fcabc43db21_mq.jpg?v=59fb4474"
+                    alt="charly purt"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">Attention</span>
+                  <span class="info-name-singer">Charlie Puth</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://i.ytimg.com/an/vnfGni4_RlI/10528577312671670331_mq.jpg?v=5fb67560"
+                    alt="charly purt"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">The Greatest</span>
+                  <span class="info-name-singer">Kate Hustin</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e023e0698e4ae5ffb82a005aeeb"
+                    alt="charly purt 2"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">Robbery</span>
+                  <span class="info-name-singer">Juice WRLD</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://toplist.vn/images/800px/havana-camila-cabello-young-thug-206020.jpg"
+                    alt="hahvana"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">Havana</span>
+                  <span class="info-name-singer">Camila Cabello</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2021/06/leave-the-door-open.jpeg?fit=500%2C20000&quality=95&ssl=1"
+                    alt="Silk Sonic"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">Silk Sonic</span>
+                  <span class="info-name-singer"
+                    >Bruno Mars ft. Anderson .Paak</span
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-image">
+                  <img
+                    src="https://images.genius.com/4ce6cfad6cbbe609e21173ccefd3050b.300x300x1.jpg"
+                    alt="Big SHAQ"
+                  />
+                </div>
+                <div class="carousel-info">
+                  <span class="info-name-song">Man's not hot</span>
+                  <span class="info-name-singer">Big SHAQ</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="playing-handle">
+              <div class="playing-handle-control">
+                <div class="playing-control">
+                  <span class="playing-status-title">Music Pause </span>
+                  <div class="playing-control-top">
+                    <div class="playing-info">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b27397eaf8a3b5e96c0e6cb954d3"
+                        alt=""
+                      />
+                      <div class="playing-detail">
+                        <span class="playing-detail-song">Suyt Nua Thi</span>
+                        <span class="playing-detail-singer">Andiez</span>
+                        <div class="playing-time">
+                          <span class="song-duration">00:00</span>
+                          <img
+                            src="https://cliply.co/wp-content/uploads/2021/09/142109580_MUSIC_TONES_400px.gif"
+                            alt=""
+                            class="playing-animation"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="playing-control-range">
+                    <input
+                      type="range"
+                      value="0"
+                      step="1"
+                      min="0"
+                      max="100"
+                      class="slider"
+                      id="control-range"
+                    />
+                  </div>
+                  <audio id="audio" src=""></audio>
+
+                  <div class="playing-control-action">
+                    <div class="action-shuffle-btn">
+                      <ion-icon
+                        class="shuffle-btn"
+                        name="shuffle-outline"
+                      ></ion-icon>
+                    </div>
+
+                    <div class="action-play-btn">
+                      <ion-icon
+                        class="previous-btn"
+                        name="arrow-back-circle-outline"
+                      ></ion-icon>
+                      <!--  -->
+                      <div class="toggle-button">
+                        <ion-icon
+                          class="play-btn"
+                          name="play-circle-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          class="pause-btn"
+                          name="pause-circle-outline"
+                        ></ion-icon>
+                      </div>
+                      <!--  -->
+                      <ion-icon
+                        class="next-btn"
+                        name="arrow-forward-circle-outline"
+                      ></ion-icon>
+                    </div>
+
+                    <div class="action-volume-btn">
+                      <ion-icon
+                        class="voulune-btn"
+                        name="volume-high-outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="playing-handle-list">
+                <div class="list-header">
+                  <div class="list-header-left">
+                    <h4 class="list-header-title">Mostly Played</h4>
+                  </div>
+                  <div class="list-header-right">
+                    <ion-icon name="musical-notes-outline"></ion-icon>
+                    <!-- <span class="list-header-count">5 songs on the list</span> -->
+                  </div>
+                  <template id="templateRenderQuantity">
+                    <span class="list-header-count">5 songs on the list</span>
+                  </template>
+                </div>
+                <div class="list-song">
+                  <ul class="songs">
+                    <!-- ... -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
