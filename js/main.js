@@ -41,7 +41,7 @@ const app = {
   isPlaying: false,
   isRandom: false,
   isLike: false,
-  imageUrl: "",
+  imageUrl: "https://wallpaperaccess.com/full/847699.jpg",
   config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
   // properties global
 
