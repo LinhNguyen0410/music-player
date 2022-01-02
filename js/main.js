@@ -41,7 +41,7 @@ const app = {
   isPlaying: false,
   isRandom: false,
   isLike: false,
-  imageUrl: "https://wallpaperaccess.com/full/847699.jpg",
+  imageUrl: "",
   config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
   // properties global
 
@@ -232,22 +232,25 @@ const app = {
       "https://images2.alphacoders.com/238/thumb-1920-238870.jpg",
       "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701329839.jpg",
       "https://images4.alphacoders.com/102/thumb-1920-1029784.jpg",
-      "https://lh3.googleusercontent.com/proxy/yPlGKQcwhq6HuvgAQ_AYr0VotzHYnArqf4j96PFIius8S8Cxd1qDhJ91dIiKp5nXPOjdmHf6IlRkIUU_vvS9ZuCZHFuvoaUt2m_dnRGv8NdAAPJFlaVxTy2brD-6qRQ",
       "https://upload.wikimedia.org/wikipedia/commons/6/6b/Amazing_River_Flowing_Nature_Wallpapers.jpg",
       "https://images.hdqwalls.com/download/los-santos-gta-v-city-view-92-1920x1080.jpg",
       "https://images.hdqwalls.com/download/los-santos-gta-v-city-view-92-1920x1080.jpg",
-      "https://a-static.besthdwallpaper.com/por-do-sol-havaiano-papel-de-parede-1920x1280-26724_38.jpg",
       "https://tophinhanhdep.com/wp-content/uploads/2021/10/1920X1080-HD-Farm-Wallpapers.jpg",
       "https://tophinhanhdep.com/wp-content/uploads/2021/10/1920X1080-HD-Farm-Wallpapers.jpg",
-      "https://external-preview.redd.it/bF5fos-C4tYYqgLm71iyj5MCkff6_FwqaTQ01T9xGUc.jpg?auto=webp&s=b885390777645225b34771f0daf0961c2ef3b639",
       "https://cdn.wallpapersafari.com/48/95/lQNn2X.jpg",
-      "https://wallpaperaccess.com/full/838020.jpg",
+      "https://cdn.wallpapersafari.com/48/95/lQNn2X.jpg",
       "https://eskipaper.com/images/dog-close-up-background-1.jpg",
       "https://wallpaperaccess.com/full/847699.jpg",
+      "https://a-static.besthdwallpaper.com/hoang-hon-tren-bien-hinh-nen-1920x1280-22171_38.jpg",
+      "https://wallpaperaccess.com/full/117983.jpg",
+      "https://wallpaperaccess.com/full/6512.jpg",
+      "https://wallpaperaccess.com/full/1631415.jpg",
     ];
     const newIndex = Math.floor(Math.random() * imgList.length);
+    console.log(newIndex);
     this.setConfig("imageUrl", imgList[newIndex]);
-    body.style.backgroundImage = `url("${this.imageUrl}") `;
+    body.style.backgroundImage = `url("${this.imageUrl}")`;
+
     location.reload();
   },
 
@@ -389,7 +392,7 @@ const app = {
     };
 
     //.. change background body
-    btnChangeBg.on = function (e) {
+    btnChangeBg.onclick = function (e) {
       _this.changeBackground();
     };
   },
