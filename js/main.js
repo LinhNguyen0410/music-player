@@ -50,79 +50,78 @@ const app = {
     {
       name: "Đành lòng sau",
       singer: "Anh Rồng",
-      path: "https://vnso-zn-5-tf-mp3-320s1-zmp3.zadn.vn/a53a7da35be2b2bcebf3/6754487942023091510?authen=exp=1641195341~acl=/a53a7da35be2b2bcebf3/*~hmac=c2356690af3e25aea4d9f14e574e6149&fs=MTY0MTAyMjU0MTQzNnx3ZWJWNnwxMDAyMjmUsIC0NTmUsIC1fDEyNS4yMzUdUngMjM0LjE2",
+      path: "./songs/y2meta.com - Đành Lòng Sao - Anh Rồng _ Official MV Lyrics (320 kbps).mp3",
       image:
         "https://images.genius.com/775224f5dd4d42988bb0289712d49c84.300x300x1.jpg",
     },
     {
       name: "Rồi nâng cái ly",
       singer: "Nal",
-      path: "https://vnso-zn-16-tf-mp3-320s1-zmp3.zadn.vn/112cc519b95850060949/6942370980183748694?authen=exp=1641304335~acl=/112cc519b95850060949/*~hmac=0e4adcc2ef11784ec3940e59cfefa6df&fs=MTY0MTEzMTUzNTM0OXx3ZWJWNnwwfDExMy4xNjEdUngMjEzLjMw",
+      path: "./songs/y2meta.com - Rồi Nâng Cái Ly - Nal _ Official Music Video _ Hit Tết 2022 (128 kbps).mp3",
       image:
         "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/4/4/7/844758780c2ff39faebaebaf0626a665.jpg",
     },
     {
       name: "Havana",
       singer: "Camila Cabello",
-      path: "https://vnso-zn-5-tf-mp3-320s1-zmp3.zadn.vn/3c393b1160568908d047/6007942069474954845?authen=exp=1641194666~acl=/3c393b1160568908d047/*~hmac=a8f8e19feaa6160a8923b72fc98f6b7b&fs=MTY0MTAyMTg2NjAzOHx3ZWJWNnwwfDE0LjI0NC4xOTkdUngMTE4",
+      path: "./songs/y2meta.com - Camila Cabello - Havana (Audio) ft. Young Thug (128 kbps).mp3",
       image:
         "https://toplist.vn/images/800px/havana-camila-cabello-young-thug-206020.jpg",
     },
     {
       name: "One call Away",
       singer: "Charlie Puth",
-      path: "https://vnso-zn-10-tf-mp3-320s1-zmp3.zadn.vn/83bbb84b260fcf51961e/2111417469685848686?authen=exp=1641195466~acl=/83bbb84b260fcf51961e/*~hmac=49948871cca96bee39e44330f93b1dc2&fs=MTY0MTAyMjY2NjMwNnx3ZWJWNnwxMDAyMjmUsIC0NTmUsIC1fDEyNS4yMzUdUngMjM0LjE2",
+      path: "./songs/y2meta.com - Charlie Puth - One Call Away [Official Video] (128 kbps).mp3",
       image: "https://data.chiasenhac.com/data/cover/46/45246.jpg",
     },
 
     {
       name: "Never be the same ",
       singer: "Camila Cabello",
-      path: "https://vnso-zn-24-tf-mp3-320s1-zmp3.zadn.vn/036ba161f7261e784737/7811991917792751387?authen=exp=1641195129~acl=/036ba161f7261e784737/*~hmac=697051b01def11c3882b471d2ab65089&fs=MTY0MTAyMjMyOTmUsIC5OXx3ZWJWNnwxMDAyMjmUsIC0NTmUsIC1fDEyNS4yMzUdUngMjM0LjE2",
+      path: "./songs/y2meta.com - Never Be The Same - Camila Cabello (Lyrics) (128 kbps).mp3",
       image:
         "https://blog.patrickstereocap.com/wp-content/uploads/edd/2019/10/camila-cabello-never-be-the-same-300x300.jpg",
     },
     {
       name: "Heartbreak anniversary",
       singer: "Giveon",
-      path: "https://vnso-zn-23-tf-mp3-320s1-zmp3.zadn.vn/a5b4ce4c3c0bd5558c1a/3495224435121630205?authen=exp=1641195279~acl=/a5b4ce4c3c0bd5558c1a/*~hmac=9e99cd3e036e93d2d210590658ac3f28&fs=MTY0MTAyMjQ3OTI5MXx3ZWJWNnwxMDAyMjmUsIC0NTmUsIC1fDEyNS4yMzUdUngMjM0LjE2",
+      path: "./songs/y2meta.com - [Vietsub+Lyrics] Heartbreak Anniversary - Giveon (128 kbps).mp3",
       image:
         "https://upload.wikimedia.org/wikipedia/en/2/2a/Giveon_-_Heartbreak_Anniversary.png",
     },
 
     {
-      name: "Đèo bòng",
-      singer: "Keyo",
-      path: "https://vnso-zn-16-tf-mp3-320s1-zmp3.zadn.vn/d233c3c1d7803ede6791/847126668433917740?authen=exp=1641277013~acl=/d233c3c1d7803ede6791/*~hmac=9b9394eb5571263d8e002b9d063401a5&fs=MTY0MTEwNDIxMzI2OHx3ZWJWNnwxMDmUsIC0MTA1NDYzfDEyNS4yMzUdUngMjI3LjIwMA",
-      image:
-        "https://images.genius.com/a5b612c4bdd74146f7159b5e46cf60de.300x300x1.jpg",
+      name: "Dangerously",
+      singer: "Charlie Puth",
+      path: "./songs/y2meta.com - [Vietsub+Lyrics] Dangerously - Charlie Puth (128 kbps).mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02897f73256b9128a9d70eaf66",
     },
 
     {
       name: "Mood",
       singer: "Justin Bieber",
-      path: "https://vnso-zn-5-tf-mp3-320s1-zmp3.zadn.vn/d1703be9eaae03f05abf/7551304451673558048?authen=exp=1641195014~acl=/d1703be9eaae03f05abf/*~hmac=f582a2ff7bc2959e4e7f6b0ad9efa564&fs=MTY0MTAyMjIxNDY3MXx3ZWJWNnwxMDgwMjM3MjmUsICxfDI3LjY2LjMyLjmUsICy",
+      path: "./songs/y2meta.com - [Vietsub + Lyric] 24Kgoldn - Mood (remix) _ Music Tik Tok (128 kbps).mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2020/11/11/6/5/6/7/1605090321292_640.jpg",
     },
     {
       name: "Go Crazy",
       singer: "Chris Brown, Young Thug",
-      path: "https://vnso-zn-10-tf-mp3-320s1-zmp3.zadn.vn/87f0bdafe6e80fb656f9/3202525758056234645?authen=exp=1641195562~acl=/87f0bdafe6e80fb656f9/*~hmac=ae85717ce3e96ad56649da9a06bb3f8c&fs=MTY0MTAyMjmUsIC2MjQxOXx3ZWJWNnwxMDAyMjmUsIC0NTmUsIC1fDEyNS4yMzUdUngMjM0LjE2",
+      path: "./songs/y2meta.com - Leslie Odom Jr. - Go Crazy (Official Video) (128 kbps).mp3",
       image:
         "https://i1.sndcdn.com/artworks-pIdveO0Elc63kzj6-PI0uBg-t500x500.jpg",
     },
     {
       name: "Heading Home",
       singer: "Alan Walker",
-      path: "https://vnso-zn-24-tf-mp3-320s1-zmp3.zadn.vn/dfeb42d04991a0cff980/1719989138725990736?authen=exp=1641195517~acl=/dfeb42d04991a0cff980/*~hmac=5d95cd1e651a144d3ccd49e047006bbc&fs=MTY0MTAyMjmUsICxNzg3NHx3ZWJWNnwwfDE0LjE3Ni41OS4xMTg",
+      path: "./songs/y2meta.com - Alan Walker & Ruben – Heading Home (Official Music Video) (128 kbps).mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2020/04/13/4/9/0/0/1586787119941_640.jpg",
     },
     {
       name: "Señorita",
       singer: "Camila Cabello, Shawn Mendes",
-      path: "https://vnso-zn-23-tf-mp3-320s1-zmp3.zadn.vn/fb0f99167b51920fcb40/8990096729044148664?authen=exp=1641195207~acl=/fb0f99167b51920fcb40/*~hmac=0ee622794031772d0f8ddeece8d5c62e&fs=MTY0MTAyMjQwNzM4NXx3ZWJWNnwwfDE3MS4yNTIdUngMTU1LjM0",
+      path: "./songs/y2meta.com - Shawn Mendes, Camila Cabello - Señorita (128 kbps).mp3",
       image:
         "https://cdn.promodj.com/afs/270f6e6b9a124124b616adafbb9b401512:resize:3000x3000:same:promodj:640f47",
     },
