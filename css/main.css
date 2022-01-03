@@ -580,3 +580,143 @@ body {
 .active-song {
   background-color: var(--hover-icon);
 }
+/* trên 1400px */
+@media screen and (min-width: 1400px) {
+  #music-sidebar {
+  }
+  #music-main {
+  }
+  #container-fluid {
+    width: 1600px;
+    height: 600px;
+  }
+  .playing-carousel {
+    gap: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #music-sidebar {
+    display: none;
+  }
+  #music-main {
+    width: 100%;
+  }
+  #container-fluid {
+    width: 1000px;
+  }
+  .playing-carousel {
+  }
+  .playing-handle-control {
+    width: 70%;
+  }
+}
+
+/* dưới 768px */
+@media screen and (max-width: 768px) {
+  #music-sidebar {
+    display: none;
+  }
+  #music-main {
+    width: 100%;
+  }
+  #container-fluid {
+    width: 700px;
+    height: 600px;
+  }
+  .playing-carousel {
+  }
+  .playing-handle-control {
+    width: 70%;
+  }
+
+  .list-header-title,
+  .song-name,
+  .list-header-count,
+  .song-singer {
+    font-size: 1rem;
+  }
+  .song-thumbnail img {
+    margin-left: 12px;
+  }
+}
+
+/* dưới 600px */
+@media screen and (max-width: 600px) {
+  #container-fluid {
+    width: 555px;
+  }
+
+  .playing-handle-control,
+  .playing-handle-list {
+    width: 50%;
+  }
+
+  .list-header-title,
+  .song-name,
+  .list-header-count,
+  .song-singer {
+    font-size: 1rem;
+  }
+  .song-like,
+  #music-sidebar,
+  .list-header-title,
+  .list-header-count {
+    display: none;
+  }
+  .song-name,
+  .song-singer {
+    width: 100px;
+    margin-left: 20px;
+  }
+
+  .song-thumbnail img {
+    margin-left: 15px;
+  }
+  .header-notify-item {
+    display: flex;
+  }
+}
+
+/* dưới 376px */
+@media screen and (max-width: 476px) {
+  #music-main {
+    width: 100%;
+  }
+  #container-fluid {
+    width: 350px;
+  }
+
+  .playing-handle-control,
+  .playing-handle-list {
+    width: 50%;
+  }
+
+  .list-header-title,
+  .song-name,
+  .list-header-count,
+  .song-singer {
+    font-size: 1rem;
+  }
+
+  .song-name,
+  .song-singer {
+    width: 60px;
+  }
+  .song-item {
+    width: 100%;
+  }
+  #music-sidebar,
+  .header-search,
+  .list-header-title,
+  .list-header-count,
+  .song-numerica .song-like,
+  .playing-detail-song,
+  .playing-detail-singer,
+  .main-header {
+    display: none;
+  }
+  .song-duration {
+    margin-bottom: 100px;
+    margin-left: -20px;
+  }
+}
