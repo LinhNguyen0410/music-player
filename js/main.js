@@ -48,6 +48,13 @@ const app = {
   // this === apps (object)
   songs: [
     {
+      name: "How long",
+      singer: "Charlie Puth",
+      path: "./songs/y2meta.com - Charlie Puth - _How Long_ [Official Video] (128 kbps).mp3",
+      image:
+        "https://lastfm.freetls.fastly.net/i/u/ar0/c523b7e5453796a596ab007255be1598.jpg",
+    },
+    {
       name: "Đành lòng sau",
       singer: "Anh Rồng",
       path: "./songs/y2meta.com - Đành Lòng Sao - Anh Rồng _ Official MV Lyrics (320 kbps).mp3",
@@ -60,6 +67,13 @@ const app = {
       path: "./songs/y2meta.com - Rồi Nâng Cái Ly - Nal _ Official Music Video _ Hit Tết 2022 (128 kbps).mp3",
       image:
         "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/4/4/7/844758780c2ff39faebaebaf0626a665.jpg",
+    },
+    {
+      name: "Nghe - Nói",
+      singer: "Obito x Pjpo",
+      path: "./songs/y2meta.com - Pjpo VS Obito - Nghe - Nói - Team Binz _ Rap Việt - Mùa 2 [MV Lyrics] (128 kbps).mp3",
+      image:
+        "https://i1.sndcdn.com/artworks-Y8PeJgOkjnWXa89C-dlCPUA-t500x500.jpg",
     },
     {
       name: "Havana",
